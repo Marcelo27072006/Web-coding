@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+
+    #planos {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #escolha {
+        display: flex;
+        justify-content: center;
+    }
+
+    .centralizar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .borda {
+        margin: auto 90px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #000000;
+        width: 270px;
+    }
+
+    .basica {
+        width: 270px;
+        height: 45px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background-color: #333333;
+    }
+
+    .tributo {
+        text-align: center;
+        padding: 9px;
+        color:#eae9e9;
+        font-size: 22px;
+    }
+
+    .preço {
+        width: 270px;
+        height: 70px;
+        background-color: #29A6CF;
+    }
+
+    .din {
+        margin: auto 40px; 
+        padding: 14px;
+        color:#dfdede;
+        font-size: 35px;
+    }
+
+    .mes {
+        margin-right: 50px;
+        font-size: 12px;
+    }
+
+    .dados {
+        width: 270px;
+        height: 250px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background-color: #CCCCCC;
+    }
+
+    .memoria {
+        text-align: center;
+        color:#000000;
+        padding: 4px;
+    }
+
+    .qntd {
+        margin: auto 100px;
+        color: #797b7d;
+        font-size: 20PX;
+    }
+
+    .botao {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        width: 160px;
+        height: 50px;
+        background: linear-gradient(#28A1E7, #023D99);
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    h3 {
+        text-align: center;
+        padding: 30px;
+        color: #FFFFFF;
+    }
+
+    .carrinho {
+        display: flex;
+        width: 100px;
+        height: 38px;
+        background: linear-gradient(#3174BA, #002C69);
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
